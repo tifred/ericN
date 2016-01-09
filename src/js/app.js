@@ -42,57 +42,57 @@ var initialSeries = [
         altText: "Sample Alternate Text"
       },
       {
-        img: "_001",
+        img: "001",
         captionText: "The Master, At Rest",
         altText: "Sample Alternate Text"
       },
       {
-        img: "_002",
+        img: "002",
         captionText: "Make My Day",
         altText: "Sample Alternate Text"
       },
       {
-        img: "_003",
+        img: "003",
         captionText: "Seated, Yet Dangerous",
         altText: "Sample Alternate Text"
       },
       {
-        img: "_004",
+        img: "004",
         captionText: "Look Out!  Sword Fight!",
         altText: "Sample Alternate Text"
       },
       {
-        img: "_005",
+        img: "005",
         captionText: "Sample Caption",
         altText: "Sample Alternate Text"
       },
       {
-        img: "_006",
+        img: "006",
         captionText: "Sample Caption",
         altText: "Sample Alternate Text"
       },
       {
-        img: "_007",
+        img: "007",
         captionText: "Sample Caption",
         altText: "Sample Alternate Text"
       },
       {
-        img: "_008",
+        img: "008",
         captionText: "Sample Caption",
         altText: "Sample Alternate Text"
       },
       {
-        img: "_009",
+        img: "009",
         captionText: "Sample Caption",
         altText: "Sample Alternate Text"
       },
       {
-        img: "_010",
+        img: "010",
         captionText: "Sample Caption",
         altText: "Sample Alternate Text"
       },
       {
-        img: "_011",
+        img: "011",
         captionText: "Sample Caption",
         altText: "Sample Alternate Text"
       }
