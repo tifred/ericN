@@ -37,7 +37,7 @@ var initialSeries = [
     artTextTwo: '',
     images: [
       {
-        img: "_009_MAIN",
+        img: "009_MAIN",
         captionText: "Sample Caption",
         altText: "Sample Alternate Text"
       },
