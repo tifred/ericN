@@ -72,7 +72,7 @@ body {
 }
 
 /*
-  These apply to the links exposed by the expanded menu icon.
+  These DO apply to the links exposed by the expanded menu icon.
   They effectively duplicate what was done above with the "normal" links.
 */
 
@@ -90,10 +90,12 @@ body {
   color: #f6eaea;
 }
 
-/* reduce the lower padding on the last link, to keep  things trim. */
+/* REMOVED THIS reduce the lower padding on the last link, to keep  things trim. */
+/*
 .navbar-default .navbar-nav > li:last-child > a.nav-link-custom {
-  padding-bottom: 0px;
+  padding-bottom: 30px;
 }
+*/
 
 /* adjust menu icon to be inline with headers */
 .menu-button {
