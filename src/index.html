@@ -54,9 +54,11 @@
             <div class="collapse navbar-collapse" id="myNavbar">
               <ul class="nav navbar-nav navbar-right">
                 <li data-bind="click: showMain, css: { navlinkclicked: homeLinkWasClicked() }"><a href="#" data-toggle="collapse" data-target="#myNavbar" class="nav-link-custom">Home</a></li>
-                <li data-bind="click: showAboutme, css: { navlinkclicked: aboutmeLinkWasClicked() }"><a href="#" data-toggle="collapse" data-target="#myNavbar" class="nav-link-custom">About Me</a></li>
+                <li data-bind="click: showAboutme, css: { navlinkclicked: aboutmeLinkWasClicked() }, style: { 'padding-bottom': lastItemShortPadding() ? '10px' : '0px' }"><a href="#" data-toggle="collapse" data-target="#myNavbar" class="nav-link-custom">About Me</a></li>
+                <!-- REMOVING CONTACT AND ARTICLES
                 <li data-bind="click: showContact, css: { navlinkclicked: contactLinkWasClicked() }"><a href="#" data-toggle="collapse" data-target="#myNavbar" class="nav-link-custom">Contact</a></li>
                 <li data-bind="click: showLongArtMain, css: { navlinkclicked: articlesLinkWasClicked() }, style: { 'padding-bottom': lastItemShortPadding() ? '30px' : '0px' }"><a href="#" data-toggle="collapse" data-target="#myNavbar" class="nav-link-custom">Articles</a></li>
+                -->
               </ul>
             </div>
 
@@ -77,22 +79,25 @@
     <!-- Note: navlinkclicked fails with knockout if it has hyphens in name -->
 
     <nav class="row nav-row hidden-xs">
-      <div class="col-sm-2"></div>
+      <div class="col-sm-4"></div>
       <div class="col-sm-2 nav-link-custom" data-bind="click: showMain, css: { navlinkclicked: homeLinkWasClicked() }">Home</div>
       <div class="col-sm-2 nav-link-custom" data-bind="click: showAboutme, css: { navlinkclicked: aboutmeLinkWasClicked() } ">About Me</div>
+      <div class="col-sm-4"></div>
+
+      <!-- REMOVING CONTACT AND ARTICLES
       <div class="col-sm-2 nav-link-custom"  data-bind="click: showContact, css: { navlinkclicked: contactLinkWasClicked() }">Contact</div>
       <div class="col-sm-2 nav-link-custom" data-bind="click: showLongArtMain, css: { navlinkclicked: articlesLinkWasClicked() }">Articles</div>
-      <div class="col-sm-2"></div>
+      -->
     </nav>
 
 
     <!-- FIRST ROW OF IMAGES -->
 
     <section class="row" data-bind="foreach: mainViewRowOne, visible: mainIsVisible">
-      <div class="col-sm-3">
+      <div class="col-sm-3" style="margin-top:0px">
         <figure>
-          <a href="#"><img class="img-responsive" data-bind="attr: { src: $data.mainSrc, srcset: $data.mainSrcset, sizes: $data.mainSizes, alt: $data.mainAltText }, click: $parent.showArticle"></a>
-          <figcaption class="figcaption-main-page" data-bind="text: $data.mainCaptionText"></figcaption>
+          <a href="#"><img class="img-responsive center-block" style="margin-top:0px" data-bind="attr: { src: $data.mainSrc, srcset: $data.mainSrcset, sizes: $data.mainSizes, alt: $data.mainAltText }, click: $parent.showArticle"></a>
+          <figcaption class="figcaption-main-page text-center" data-bind="text: $data.mainCaptionText"></figcaption>
         </figure>
       </div>
     </section>
@@ -100,10 +105,10 @@
     <!-- SECOND ROW OF IMAGES -->
 
     <section class="row" data-bind="foreach: mainViewRowTwo, visible: mainIsVisible">
-      <div class="col-sm-3">
+      <div class="col-sm-3" style="margin-top:0px">
         <figure>
-          <a href="#"><img class="img-responsive" data-bind="attr: { src: $data.mainSrc, srcset: $data.mainSrcset, sizes: $data.mainSizes, alt: $data.mainAltText }, click: $parent.showArticle"></a>
-          <figcaption class="figcaption-main-page" data-bind="text: $data.mainCaptionText"></figcaption>
+          <a href="#"><img class="img-responsive center-block" style="margin-top:0px" data-bind="attr: { src: $data.mainSrc, srcset: $data.mainSrcset, sizes: $data.mainSizes, alt: $data.mainAltText }, click: $parent.showArticle"></a>
+          <figcaption class="figcaption-main-page text-center" data-bind="text: $data.mainCaptionText"></figcaption>
         </figure>
       </div>
     </section>
@@ -112,10 +117,10 @@
 
     <section class="row" data-bind="visible: articleIsVisible">
       <div class="col-sm-5">
-        <h2 class="article-title" data-bind="text: artTitle"></h2>
+        <h4 class="article-title" data-bind="text: artTitle"></h4>
         <div data-bind="html: artText"></div>
       </div>
-      <div class="col-sm-7">
+      <div class="col-sm-7" style="margin-top:0px">
         <figure>
           <a href="#"><img class="img-responsive article-image" data-bind="attr: { src: artSrc, srcset: artSrcset, sizes: artSizes, alt: artAltText }, click: showGallery"></a>
           <!-- NOT USING THIS: figcaption data-bind="text: artCaptionText"></figcaption -->
@@ -133,7 +138,7 @@
 
     <section class="row" data-bind="visible: galleryIsVisible">
 
-      <div id="carousel-example-generic" class="carousel slide">
+      <div id="carousel-example-generic" class="carousel slide" style="margin-top:0px">
 
 	<!-- Indicators -->
         <!-- This sets up the little dots on the bottom that indicate
@@ -154,9 +159,9 @@
              That is what the css binding does.
              Note that "index must be index() -->
 
-	<div class="carousel-inner" role="listbox" data-bind="foreach: galleryView">
-	  <div class="item active" data-bind="css: { active: $index() === 0 }">
-            <img class="img-responsive" data-bind="attr: { src: $data.src, srcset: $data.srcset, sizes: $data.sizes, alt: $data.altText }">
+	<div class="carousel-inner" style="margin-top:0px" role="listbox" data-bind="foreach: galleryView">
+	  <div class="item active" style="margin-top:0px" data-bind="css: { active: $index() === 0 }">
+            <img class="img-responsive center-block" style="margin-top:0px" data-bind="attr: { src: $data.src, srcset: $data.srcset, sizes: $data.sizes, alt: $data.altText }">
 	    <!-- Removing captions for now: 
 	    <div class="carousel-caption">
               <h4 data-bind="text: $data.captionText"></h4>
@@ -196,7 +201,8 @@
       </div>
     </section>
 
-    <!-- CONTACT -->
+    <!-- CONTACT  REMOVED -->
+    <!--
 
     <section class="row" data-bind="visible: contactIsVisible">
       <div class="col-sm-6">
@@ -208,8 +214,10 @@
       <div class="col-sm-6" data-bind="html: EPtextCol1">
       </div>
     </section>
+    -->
 
-    <!-- LONG ARTICLES MAIN -->
+    <!-- LONG ARTICLES MAIN REMOVED -->
+    <!--
 
     <section class="row" data-bind="visible: longArtMainIsVisible">
 
@@ -240,8 +248,10 @@
       </div>
 
     </section>
+    -->
 
-    <!-- FOOTER -->
+    <!-- FOOTER REMOVED -->
+    <!--
 
     <footer class="row text-center">
       <div class="col-xs-2"></div>
@@ -259,6 +269,8 @@
       </div>
       <div class="col-xs-2"></div>
     </footer>
+
+    -->
 
   </div> <!-- END CONTAINER -->
 

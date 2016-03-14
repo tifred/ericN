@@ -39,77 +39,92 @@ var initialSeries = [
       {
         img: "web_005_MAIN",
         captionText: "Sample Caption",
-        altText: "Sample Alternate Text"
+        altText: "Sample Alternate Text",
+        orient: "land"
       },
       {
         img: "web_001",
         captionText: "The Master, At Rest",
-        altText: "Sample Alternate Text"
+        altText: "Sample Alternate Text",
+        orient: "land"
       },
       {
         img: "web_002",
         captionText: "Make My Day",
-        altText: "Sample Alternate Text"
+        altText: "Sample Alternate Text",
+        orient: "port"
       },
       {
         img: "web_003",
         captionText: "Seated, Yet Dangerous",
-        altText: "Sample Alternate Text"
+        altText: "Sample Alternate Text",
+        orient: "land"
       },
       {
         img: "web_004",
         captionText: "Look Out!  Sword Fight!",
-        altText: "Sample Alternate Text"
+        altText: "Sample Alternate Text",
+        orient: "land"
       },
       {
         img: "web_005",
         captionText: "Sample Caption",
-        altText: "Sample Alternate Text"
+        altText: "Sample Alternate Text",
+        orient: "land"
       },
       {
         img: "web_006",
         captionText: "Sample Caption",
-        altText: "Sample Alternate Text"
+        altText: "Sample Alternate Text",
+        orient: "land"
       },
       {
         img: "web_007",
         captionText: "Sample Caption",
-        altText: "Sample Alternate Text"
+        altText: "Sample Alternate Text",
+        orient: "port"
       },
       {
         img: "web_008",
         captionText: "Sample Caption",
-        altText: "Sample Alternate Text"
+        altText: "Sample Alternate Text",
+        orient: "land"
       },
       {
         img: "web_009",
         captionText: "Sample Caption",
-        altText: "Sample Alternate Text"
+        altText: "Sample Alternate Text",
+        orient: "land"
       },
       {
         img: "web_010",
         captionText: "Sample Caption",
-        altText: "Sample Alternate Text"
+        altText: "Sample Alternate Text",
+        orient: "land"
       },
       {
         img: "web_011",
         captionText: "Sample Caption",
-        altText: "Sample Alternate Text"
+        altText: "Sample Alternate Text",
+        orient: "land"
       },
       {
         img: "web_012",
         captionText: "Sample Caption",
-        altText: "Sample Alternate Text"
+        altText: "Sample Alternate Text",
+        orient: "land"
       },
       {
         img: "web_013",
         captionText: "Sample Caption",
-        altText: "Sample Alternate Text"
+        altText: "Sample Alternate Text",
+        orient: "port"
       },
       {
         img: "web_014",
         captionText: "Sample Caption",
-        altText: "Sample Alternate Text"
+        altText: "Sample Alternate Text",
+        orient: "port"
       }
     ]
   },
@@ -126,82 +141,98 @@ var initialSeries = [
       {
         img: "Series2_003_MAIN",
         captionText: "Sample Caption",
-        altText: "Sample Alternate Text"
+        altText: "Sample Alternate Text",
+        orient: "land"
       },
       {
         img: "Series2_001",
         captionText: "Sample Caption",
-        altText: "Sample Alternate Text"
+        altText: "Sample Alternate Text",
+        orient: "port"
       },
       {
         img: "Series2_002",
         captionText: "Sample Caption",
-        altText: "Sample Alternate Text"
+        altText: "Sample Alternate Text",
+        orient: "land"
       },
       {
         img: "Series2_003",
         captionText: "Sample Caption",
-        altText: "Sample Alternate Text"
+        altText: "Sample Alternate Text",
+        orient: "land"
       },
       {
         img: "Series2_004",
         captionText: "Sample Caption",
-        altText: "Sample Alternate Text"
+        altText: "Sample Alternate Text",
+        orient: "land"
       },
       {
         img: "Series2_005",
         captionText: "Sample Caption",
-        altText: "Sample Alternate Text"
+        altText: "Sample Alternate Text",
+        orient: "land"
       },
       {
         img: "Series2_006",
         captionText: "Sample Caption",
-        altText: "Sample Alternate Text"
+        altText: "Sample Alternate Text",
+        orient: "land"
       },
       {
         img: "Series2_007",
         captionText: "Sample Caption",
-        altText: "Sample Alternate Text"
+        altText: "Sample Alternate Text",
+        orient: "land"
       },
       {
         img: "Series2_008",
         captionText: "Sample Caption",
-        altText: "Sample Alternate Text"
+        altText: "Sample Alternate Text",
+        orient: "land"
       },
       {
         img: "Series2_009",
         captionText: "Sample Caption",
-        altText: "Sample Alternate Text"
+        altText: "Sample Alternate Text",
+        orient: "land"
       },
       {
         img: "Series2_010",
         captionText: "Sample Caption",
-        altText: "Sample Alternate Text"
+        altText: "Sample Alternate Text",
+        orient: "port"
       },
       {
         img: "Series2_011",
         captionText: "Sample Caption",
-        altText: "Sample Alternate Text"
+        altText: "Sample Alternate Text",
+        orient: "land"
       },
       {
         img: "Series2_012",
         captionText: "Sample Caption",
-        altText: "Sample Alternate Text"
+        altText: "Sample Alternate Text",
+        orient: "land"
       },
       {
         img: "Series2_013",
         captionText: "Sample Caption",
-        altText: "Sample Alternate Text"
+        altText: "Sample Alternate Text",
+        orient: "land"
       },
       {
         img: "Series2_014",
         captionText: "Sample Caption",
-        altText: "Sample Alternate Text"
+        altText: "Sample Alternate Text",
+        orient: "land"
       },
       {
         img: "Series2_015",
         captionText: "Sample Caption",
-        altText: "Sample Alternate Text"
+        altText: "Sample Alternate Text",
+        orient: "port"
       }
     ]
   },
@@ -218,57 +249,68 @@ var initialSeries = [
       {
         img: "Series3_005_MAIN",
         captionText: "Sample Text",
-        altText: "People in street"
+        altText: "People in street",
+        orient: "land"
       },
       {
         img: "Series3_001",
         captionText: "Sample Text",
-        altText: "Man in car"
+        altText: "Man in car",
+        orient: "land"
       },
       {
         img: "Series3_002",
         captionText: "Sample Text",
-        altText: "Man in car"
+        altText: "Man in car",
+        orient: "land"
       },
       {
         img: "Series3_003",
         captionText: "Sample Text",
-        altText: "Man in car"
+        altText: "Man in car",
+        orient: "port"
       },
       {
         img: "Series3_004",
         captionText: "Sample Text",
-        altText: "Man in car"
+        altText: "Man in car",
+        orient: "land"
       },
       {
         img: "Series3_005",
         captionText: "Sample Text",
-        altText: "Man in car"
+        altText: "Man in car",
+        orient: "land"
       },
       {
         img: "Series3_006",
         captionText: "Sample Text",
-        altText: "Man in car"
+        altText: "Man in car",
+        orient: "port"
       },
       {
         img: "Series3_007",
         captionText: "Sample Text",
-        altText: "Man in car"
+        altText: "Man in car",
+        orient: "port"
       },
       {
         img: "Series3_008",
         captionText: "Sample Text",
-        altText: "Man in car"
+        altText: "Man in car",
+        orient: "port"
       },
       {
         img: "Series3_009",
         captionText: "Sample Text",
-        altText: "Man in car"
+        altText: "Man in car",
+        orient: "port"
       },
       {
         img: "Series3_010",
         captionText: "Sample Text",
-        altText: "Man in car"
+        altText: "Man in car",
+        orient: "port"
       }
     ]
   },
@@ -285,37 +327,44 @@ var initialSeries = [
       {
         img: "Monk_003_MAIN",
         captionText: "Sample Text",
-        altText: "People in street"
+        altText: "People in street",
+        orient: "land"
       },
       {
         img: "Monk_001",
         captionText: "Sample Text",
-        altText: "Man in car"
+        altText: "Man in car",
+        orient: "land"
       },
       {
         img: "Monk_002",
         captionText: "Sample Text",
-        altText: "Man in car"
+        altText: "Man in car",
+        orient: "land"
       },
       {
         img: "Monk_003",
         captionText: "Sample Text",
-        altText: "Man in car"
+        altText: "Man in car",
+        orient: "land"
       },
       {
         img: "Monk_004",
         captionText: "Sample Text",
-        altText: "Man in car"
+        altText: "Man in car",
+        orient: "land"
       },
       {
         img: "Monk_005",
         captionText: "Sample Text",
-        altText: "Man in car"
+        altText: "Man in car",
+        orient: "port"
       },
       {
         img: "Monk_006",
         captionText: "Sample Text",
-        altText: "Man in car"
+        altText: "Man in car",
+        orient: "port"
       }
     ]
   },
@@ -332,72 +381,86 @@ var initialSeries = [
       {
         img: "Events_006_MAIN",
         captionText: "Sample Text",
-        altText: "People in street"
+        altText: "People in street",
+        orient: "land"
       },
       {
         img: "Events_001",
         captionText: "Sample Text",
-        altText: "Man in car"
+        altText: "Man in car",
+        orient: "land"
       },
       {
         img: "Events_002",
         captionText: "Sample Text",
-        altText: "Man in car"
+        altText: "Man in car",
+        orient: "port"
       },
       {
         img: "Events_003",
         captionText: "Sample Text",
-        altText: "Man in car"
+        altText: "Man in car",
+        orient: "port"
       },
       {
         img: "Events_004",
         captionText: "Sample Text",
-        altText: "Man in car"
+        altText: "Man in car",
+        orient: "port"
       },
       {
         img: "Events_005",
         captionText: "Sample Text",
-        altText: "Man in car"
+        altText: "Man in car",
+        orient: "land"
       },
       {
         img: "Events_006",
         captionText: "Sample Text",
-        altText: "Man in car"
+        altText: "Man in car",
+        orient: "land"
       },
       {
         img: "Events_007",
         captionText: "Sample Text",
-        altText: "Man in car"
+        altText: "Man in car",
+        orient: "port"
       },
       {
         img: "Events_008",
         captionText: "Sample Text",
-        altText: "Man in car"
+        altText: "Man in car",
+        orient: "land"
       },
       {
         img: "Events_009",
         captionText: "Sample Text",
-        altText: "Man in car"
+        altText: "Man in car",
+        orient: "port"
       },
       {
         img: "Events_010",
         captionText: "Sample Text",
-        altText: "Man in car"
+        altText: "Man in car",
+        orient: "port"
       },
       {
         img: "Events_011",
         captionText: "Sample Text",
-        altText: "Man in car"
+        altText: "Man in car",
+        orient: "port"
       },
       {
         img: "Events_012",
         captionText: "Sample Text",
-        altText: "Man in car"
+        altText: "Man in car",
+        orient: "port"
       },
       {
         img: "Events_013",
         captionText: "Sample Text",
-        altText: "Man in car"
+        altText: "Man in car",
+        orient: "land"
       }
     ]
   },
@@ -414,37 +477,44 @@ var initialSeries = [
       {
         img: "Singles_006_MAIN",
         captionText: "Sample Text",
-        altText: "People in street"
+        altText: "People in street",
+        orient: "land"
       },
       {
         img: "Singles_001",
         captionText: "Sample Text",
-        altText: "Man in car"
+        altText: "Man in car",
+        orient: "land"
       },
       {
         img: "Singles_002",
         captionText: "Sample Text",
-        altText: "Man in car"
+        altText: "Man in car",
+        orient: "land"
       },
       {
         img: "Singles_003",
         captionText: "Sample Text",
-        altText: "Man in car"
+        altText: "Man in car",
+        orient: "port"
       },
       {
         img: "Singles_004",
         captionText: "Sample Text",
-        altText: "Man in car"
+        altText: "Man in car",
+        orient: "port"
       },
       {
         img: "Singles_005",
         captionText: "Sample Text",
-        altText: "Man in car"
+        altText: "Man in car",
+        orient: "land"
       },
       {
         img: "Singles_006",
         captionText: "Sample Text",
-        altText: "Man in car"
+        altText: "Man in car",
+        orient: "land"
       },
     ]
   }
@@ -461,13 +531,14 @@ var initialSeries = [
 var extraPages = [
   {
     pageName: "AboutMe",
-    textCol1: '<p>My photography includes candid compositions, nature details, events, documentary portraits and images that simply stand on their own. I aim for good composition and value placement through the use of light and shadow. Sometimes I enjoy shooting people and their daily activities to capture a candid scene. Other times I prefer stomping solo through nature or city streets looking for ways to process it into an image. I\'m exploring a range of ways to use my camera and not settling on a particular style at the moment. I\'m available for hire to shoot events. And all images are available as digital prints.<p>',
+    textCol1: '<p>My photography includes candid compositions, nature details, events, documentary portraits and images that simply stand on their own. I aim for good composition and value placement through the use of light and shadow. Sometimes I enjoy shooting people and their daily activities to capture a candid scene. Other times I prefer stomping solo through nature or city streets looking for ways to process it into an image. I\'m exploring a range of ways to use my camera and not settling on a particular style at the moment. I\'m available for hire to shoot events. And all images are available as digital prints.<p><br><p>Contact me by email at eric.nomburg@gmail.com or on Facebook. <a href="https://www.facebook.com/eric.nomburg" class="zocial-facebook"></a>',
     textCol2: "",
     images: [
       {
         img: "aboutme",
         captionText: "Photo by Reed Cooper",
-        alt: "Woman with Camera"
+        alt: "Woman with Camera",
+        orient: "land"
       }
     ]
   },
@@ -479,7 +550,8 @@ var extraPages = [
       {
         img: "contact",
         captionText: "",
-        alt: "Woman Smiling"
+        alt: "Woman Smiling",
+        orient: "land"
       }
     ]
   },
@@ -493,12 +565,14 @@ var extraPages = [
       {
         img: "desertman",
         captionText: "",
-        alt: "Older Man Smiling"
+        alt: "Older Man Smiling",
+        orient: "land"
       },
       {
         img: "loco",
         captionText: "",
-        alt: "Kids on the street"
+        alt: "Kids on the street",
+        orient: "land"
       }
     ]
   }
@@ -514,13 +588,24 @@ var extraPages = [
 */
 
 function makeSrcset(imgPath) {
-  return imgPath + "-1000.jpg 1000w," +
+  return imgPath + "-640.jpg 1000w," +
          imgPath + "-640.jpg 640w," +
          imgPath + "-540.jpg 540w," +
          imgPath + "-440.jpg 440w," +
          imgPath + "-330.jpg 330w," +
          imgPath + "-270.jpg 270w," +
          imgPath + "-220.jpg 220w," +
+         imgPath + "-165.jpg 165w";
+}
+
+function makeSrcsetPortrait(imgPath) {
+  return imgPath + "-440.jpg 1000w," +
+         imgPath + "-330.jpg 640w," +
+         imgPath + "-330.jpg 540w," +
+         imgPath + "-270.jpg 440w," +
+         imgPath + "-220.jpg 330w," +
+         imgPath + "-165.jpg 270w," +
+         imgPath + "-165.jpg 220w," +
          imgPath + "-165.jpg 165w";
 }
 
@@ -576,7 +661,11 @@ var GalleryImage = function(imageData, seriesName, galleryNiceName) {
   this.altText = imageData.altText;
   this.imgPath = "images/" + this.seriesName + "/" + this.img;
   this.src = this.imgPath + "-640.jpg";
-  this.srcset = makeSrcset(this.imgPath);
+  if (imageData.orient === "land") {
+    this.srcset = makeSrcset(this.imgPath);
+  } else {
+    this.srcset = makeSrcsetPortrait(this.imgPath);
+  }
   this.sizes = "(min-width: 768px) 100vw, 100vw"; // 100 for 1 big column
 };
 
