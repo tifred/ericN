@@ -599,7 +599,7 @@ function makeSrcset(imgPath) {
 }
 
 function makeSrcsetPortrait(imgPath) {
-  return imgPath + "-440.jpg 1000w," +
+  return imgPath + "-330.jpg 1000w," +
          imgPath + "-330.jpg 640w," +
          imgPath + "-330.jpg 540w," +
          imgPath + "-270.jpg 440w," +
