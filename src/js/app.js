@@ -588,10 +588,10 @@ var extraPages = [
 */
 
 function makeSrcset(imgPath) {
-  return imgPath + "-640.jpg 1000w," +
-         imgPath + "-640.jpg 640w," +
-         imgPath + "-540.jpg 540w," +
-         imgPath + "-440.jpg 440w," +
+  return imgPath + "-540.jpg 1000w," +
+         imgPath + "-540.jpg 640w," +
+         imgPath + "-440.jpg 540w," +
+         imgPath + "-330.jpg 440w," +
          imgPath + "-330.jpg 330w," +
          imgPath + "-270.jpg 270w," +
          imgPath + "-220.jpg 220w," +
