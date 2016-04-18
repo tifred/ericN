@@ -643,7 +643,11 @@ var Series = function(data) {
   this.artTextTwo = data.artTextTwo;
   this.artImgPath = "images/" + this.seriesName + "/" + this.artImg;
   this.artSrc = this.artImgPath + "-640.jpg";
-  this.artSrcset = makeSrcset(this.artImgPath);
+  if (data.images[data.artImgIdx].orient === "land") {
+    this.artSrcset = makeSrcset(this.artImgPath);
+  } else {
+    this.artSrcset = makeSrcsetPortrait(this.artImgPath);
+  }
   this.artSizes = "(min-width: 768px) 58vw, 100vw"; // 58 for a 7/5 col ratio
 };
 
