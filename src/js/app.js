@@ -531,7 +531,7 @@ var initialSeries = [
 var extraPages = [
   {
     pageName: "AboutMe",
-    textCol1: '<p>My photography includes candid compositions, nature details, events, documentary portraits and images that simply stand on their own. I aim for good composition and value placement through the use of light and shadow. Sometimes I enjoy shooting people and their daily activities to capture a candid scene. Other times I prefer stomping solo through nature or city streets looking for ways to process it into an image. I\'m exploring a range of ways to use my camera and not settling on a particular style at the moment. I\'m available for hire to shoot events. And all images are available as digital prints.<p><br><p>Contact me by email at eric.nomburg@gmail.com or on Facebook. <a href="https://www.facebook.com/eric.nomburg" class="zocial-facebook"></a>',
+    textCol1: '<p>My photography includes candid compositions, nature details, events, documentary portraits and images that simply stand on their own. I aim for good composition and value placement through the use of light and shadow. Sometimes I enjoy shooting people and their daily activities to capture a candid scene. Other times I prefer stomping solo through nature or city streets looking for ways to process it into an image. I\'m exploring a range of ways to use my camera and not settling on a particular style at the moment. I\'m available for hire to shoot events. And all images are available as digital prints.<p><br><p>Contact me by email at eric.nomburg@gmail.com or on Facebook. <br><br><a href="https://www.facebook.com/eric.nomburg" class="zocial-facebook"></a>',
     textCol2: "",
     images: [
       {
